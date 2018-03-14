@@ -90,11 +90,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="0"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOl-nw-KyB">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOl-nw-KyB">
                                 <rect key="frame" x="149" y="238" width="77" height="74"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="77" id="TrE-W4-H4O"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="2"/>
                                 <connections>
@@ -107,7 +105,6 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ceL-wu-yjz" secondAttribute="trailing" constant="16" id="Pv8-8T-a5Q"/>
                             <constraint firstItem="ceL-wu-yjz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="b1w-Tc-tlJ"/>
                             <constraint firstItem="toQ-nE-92E" firstAttribute="top" secondItem="ceL-wu-yjz" secondAttribute="bottom" constant="67" id="g8M-9l-uJm"/>
-                            <constraint firstItem="qOl-nw-KyB" firstAttribute="top" secondItem="ceL-wu-yjz" secondAttribute="bottom" constant="67" id="h1D-p8-cU4"/>
                             <constraint firstItem="n2a-NE-8fV" firstAttribute="top" secondItem="ceL-wu-yjz" secondAttribute="bottom" constant="67" id="hDe-jj-33Q"/>
                             <constraint firstItem="n2a-NE-8fV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="hMk-Gk-Hrj"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="toQ-nE-92E" secondAttribute="trailing" constant="36" id="kVl-0E-IsL"/>
